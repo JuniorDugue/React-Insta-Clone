@@ -1,4 +1,7 @@
 import React from 'react';
+
+import dummyData from "./dummy-data"
+
 import './App.scss';
 
 function App() {
