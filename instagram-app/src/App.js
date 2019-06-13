@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App">
       <SearchBar/>
-      <PostContainer/>
+      <PostContainer post={this.state.post}/>
       <CommentSection/>
       </div>
     );
